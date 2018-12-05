@@ -28,8 +28,8 @@
             </tr>
             </thead>
             <tbody class="tbody-light">
-            <?php
-            $con = mysqli_connect("localhost","adminlmandd","mapwhiteboardkane ","lmandd");
+            <!--
+            $con = mysqli_connect("aawsbr698q31np.cpj44hymdmip.us-east-2.rds.amazonaws.com","adminlmandd","mapwhiteboardkane ","aawsbr698q31np");
             // Check connection
             if (mysqli_connect_errno())
             {
@@ -49,7 +49,7 @@
                 echo "<td>".$row['image']."</td>";
                 echo "</tr>";
             }
-            ?>
+           -->
             </tbody>
         </table>
         </div>
@@ -68,7 +68,7 @@
                 </tr>
             </thead>
             <tbody class="tbody-light">
-            <?php
+            <!--
             // Perform queries
             $query = mysqli_query($con,"SELECT * FROM users");
             //display query
@@ -82,7 +82,7 @@
                 echo "</tr>";
             }
             $con -> close();
-            ?>
+            -->
             </tbody>
             </table>
         </div>

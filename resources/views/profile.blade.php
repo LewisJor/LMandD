@@ -21,8 +21,8 @@
             </tr>
             </thead>
             <tbody class="tbody-light">
-            <?php
-            $con = mysqli_connect("localhost","adminlmandd","mapwhiteboardkane ","lmandd");
+            <!--
+            $con = mysqli_connect("aawsbr698q31np.cpj44hymdmip.us-east-2.rds.amazonaws.com","adminlmandd","mapwhiteboardkane ","aawsbr698q31np");
             // Check connection
             if (mysqli_connect_errno())
             {
@@ -45,7 +45,7 @@
                 echo "</tr>";
             }
             }
-            ?>
+           -->
             </tbody>
         </table>
     </div>
