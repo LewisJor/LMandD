@@ -29,7 +29,7 @@
             </thead>
             <tbody class="tbody-light">
             <?php
-            $con = mysqli_connect("mysql://bbcc77618829d0:8eed3d67@us-cdbr-iron-east-01.cleardb.net/heroku_810bd669e63fff0?reconnect=tru","bbcc77618829d0","8eed3d67 ","lmandd");
+            $con = mysqli_connect("localhost","adminlmandd","mapwhiteboardkane ","lmandd");
             // Check connection
             if (mysqli_connect_errno())
             {
